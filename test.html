@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  <div class="container">
+  
+    <center>
+      <h3 class="btn heading">My Tests
+      </h3>
+      <br><br>
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div id="camera1" class="col-md-12 col-sm-12 col-xs-12">
+          <img id="gltest" src="WhatsApp Image 2021-06-18 at 17.35.14.jpeg" onclick="gl()">
+        </div>
+        <h3 class="col-md-4 col-sm-12 col-xs-12 obsconclusion">Google Lens:<br> For me google lens, worked all the time. Google lens is more accurate than the Realtime Mobilenet as it has had more images trained into it then Mobilenet</h3>
+        <br><br>
+      </div>
+      <div id="conclusion" class="col-md-12 col-sm-12 col-xs-12">
+        <h3 class="col-md-4 col-sm-12 col-xs-12 obsconclusion">MobileNet:<br>
+        I tested Realtime Mobilenet and I was not able to get many results except for small flashes of it recognising my phone. All the other times it was recognising as a buckle, modem and other things. this was due to the number of things that were trained into mobilenet that look like a phone.</h3>
+        <div id="result">
+          <img id="mobilenet" src="screencapture-anakinlalwani-github-io-Class120-121-Reatime-Image-Recognition-M-2021-06-16-19_49_54.png" onclick="mn()">
+        </div>
+        
+        <br><br>
+        <button class="btn heading" id="tests" onclick="back()">Back</button>
+        <br><br>
+      </div>
+
+    </center>
+
+  </div>
+
+<script src="main.js"></script>
+
+  </body>
+</html>

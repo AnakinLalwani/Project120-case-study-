@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  <div class="container">
+  
+    <center>
+      <h3 class="btn heading">Case Study
+      </h3>
+      <br><br>
+
+      <p style="font-size: 22px;">
+        <b style="color: #535353">Google Lens (Pre-made by Google)</b>
+        <br>
+        <b style="color: #353535">VS</b>
+        <br>
+        <b style="color: #535353">Mobilenet (Pre-made one)</b>
+        <br>
+      </p>
+      <hr style="border-color: #535353">
+      <h4 style="color: #353535">Aim: To find the differences between the AI's</h4>
+      <hr style="border-color: #535353">
+
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div id="camera" class="col-md-4 col-sm-12 col-xs-12">
+          <img id="tm" src="Google_Lens_-_new_logo.png" onclick="gl()">
+        </div>
+        <h3 class="col-md-4 col-sm-12 col-xs-12 obsconclusion">Observation:<br>1) Google lens worked all of the time and was really easy to use and can identify almost anything<br> 2)Realtime Mobilenet doesn't work most of the time and when it does it is very difficult to see it(Click the image to see both)</h3>
+        <br><br>
+      </div>
+      <div id="conclusion" class="col-md-12 col-sm-12 col-xs-12">
+        <h3 class="col-md-4 col-sm-12 col-xs-12 obsconclusion">Conclusion:<br>1) Teachable Machine is more likely to identify objects that have been trained into it<br> 2) Realtime Mobilenet can't identify most images in realtime as it has been trained with images that sometimes look very similiar and gets confused between them, and even if it does recognise the object, you are unlikely to see it as it keeps flashing between objects</h3>
+        <div id="result">
+          <img id="mobilenet" src="logo.gif" onclick="mn()">
+        </div>
+        
+        <br><br>
+        <button class="btn heading" id="tests" onclick="testpage()">My Testing</button>
+        <br><br>
+      </div>
+
+    </center>
+
+  </div>
+
+<script src="main.js"></script>
+
+  </body>
+</html>
